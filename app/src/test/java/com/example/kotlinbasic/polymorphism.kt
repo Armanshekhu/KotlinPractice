@@ -1,5 +1,6 @@
 package com.example.kotlinbasic
 
+// Polymorphism mean giving them common base type
 fun main() {
     val circle = Circle()
     circle.draw()
