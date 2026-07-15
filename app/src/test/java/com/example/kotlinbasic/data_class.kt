@@ -11,7 +11,7 @@ fun main() {
     var student1 = Student2("Arman",22,"O")
     var student12 = Student2("Arman",22,"O")
 //  For data class they are equals as it compares the values and gives true
-    println(student1.equals(student12))
+    println(student1 == student12)
     println(student12)
     var student3 =  student12.copy(age=23)
     println(student3)
